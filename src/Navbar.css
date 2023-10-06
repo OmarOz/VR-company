@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  color: white;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.navbar .cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.Secondpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.VRpic {
+  width: fit-content;
+  height: fit-content;
+  transform: translate(10%, 0);
+}
+
+.VRpic img {
+  width: 730px;
+}
+
+.VRtext {
+  color: black;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding: 50px;
+  transform: translate(-85px, 60px);
+}
+.VRtext p {
+  width: 400px;
+  height: 250px;
+}
